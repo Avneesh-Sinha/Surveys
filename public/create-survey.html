@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Survey</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div class="container">
+        <!-- <img id="logo" src="/assets/logo.png" width="267" height="82"> -->
+        <h1>Create a Survey</h1>
+    </div>
+    <div class="surveybox">
+        <form id="surveyForm">
+            <div>
+                <h2>Survey Title</h2>
+                <input type="text" id="surveyTitle" name="title" placeholder="Enter Survey Title" required>
+            </div>
+
+            <div>
+                <h2>Created by:</h2>
+                <input type="text" id="createdByUserId" name="created_by_user_id" placeholder="Enter User ID" required>
+            </div>
+
+            <div id="sectionsContainer">
+                <h2>Sections</h2>
+                <button type="button" id="addSectionBtn">Add Section</button>
+            </div>
+
+            <button type="submit" id="submitButton">Save Survey</button>
+        </form>
+    </div>
+    <script src="js/create-survey.js"></script>
+</body>
+</html>
