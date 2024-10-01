@@ -73,4 +73,4 @@ Special thanks to:
 
 ## Contact
 
-For any inquiries or support, please contact [your-email@example.com](mailto:avneesh0904@gmail.com).
+For any inquiries or support, please contact [avneesh0904@gmail.com](mailto:avneesh0904@gmail.com).
